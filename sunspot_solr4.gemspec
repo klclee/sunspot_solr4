@@ -1,17 +1,17 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../../sunspot/lib/', __FILE__)
+lib = File.expand_path('../lib/', __FILE__)
 
 $:.unshift(lib) unless $:.include?(lib)
 
-require 'sunspot/version'
+require 'version'
 
 Gem::Specification.new do |s|
   s.name        = "sunspot_solr4"
   s.version     = Sunspot::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Charles Lrr']
+  s.authors     = ['Charles Lee']
   s.email       = ["charleetm@outlook.com"]
-  s.homepage    = 'https://github.com/outoftime/sunspot/tree/master/sunspot_solr'
+  s.homepage    = 'https://github.com/klclee/sunspot_solr4'
   s.summary     = 'Bundled Solr 4 distribution for Sunspot'
   s.description = <<-TEXT
     Sunspot::Solr provides a bundled Solr 4 distribution for use with Sunspot.
